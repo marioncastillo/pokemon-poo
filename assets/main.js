@@ -17,6 +17,8 @@ function Pokemon(nombre,color,nivelDeAmistad,vida,poderDeAtaque){
 }
 var pikachu = new Pokemon("Pikachu","rojo",0,8,2);
 var charmander = new Pokemon("Charmander","rojo",0,7,9);
+var cacnea = new Pokemon("Cacnea","verde", 0,8,10);
+var achen = new Pokemon("Archen","azul", 3,5,9);
 pikachu.atacar(charmander)
 console.log("El nivel de vida de Charmander es "+ charmander.vida)
 
