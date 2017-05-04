@@ -1,32 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>BatallaPokemon</title>
+    <meta charset="UTF-8">
+    <title>Ejercicio Pokemon</title>
 </head>
 <body>
-	<h1>Batalla Pokemon</h1>
+<center>
 
-	<div class="pokemones">
-		<select id="Pokemon1">
-			<option value="0">Selecciona tu pokemon</option>
-			<option value=>Pikachu</option>
-			<option value=>Charmander</option>
-		</select>
-		
+    <select id="opcion1">
+        <option>Elegir Pokemon</option>
+        <option value="Pikachu">Pikachu</option>
+        <option value="Charmander">Charmander</option>
+        
 
-		<select id="Pokemon2">			
-			<option value="0">Selecciona tu pokemon</option>
-			<option value=>Pikachu</option>
-			<option value=>Charmander</option>
-		</select>
+    </select>
+    VS
+    <select id="opcion2">
+        <option>Elegir Pokemon</option>
+        <option value="Pikachu">Pikachu</option>
+        <option value="Charmander">Charmander</option>
+    </select>
+    <p>
+    <button onclick="pelear()">Pelear</button>
+    <div id="mostrar"></div>
 
-	</div>
-
-	<br>
-	<br>
-	<button onclick="ataque()" id="botoncito">ATAQUE!</button>
-
-	<script src="assets/js/main.js"></script>
+</center>
+<script type="text/javascript" src="assets/js/main.js"></script>
 </body>
 </html>
