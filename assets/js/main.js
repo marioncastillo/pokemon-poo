@@ -26,7 +26,7 @@ function pelear(){
 var uno = document.getElementById("pok1").value;
 var dos = document.getElementById("pok2").value;
 var pokemon1 = new Pokemon(uno,"amarillo",100,30,60);
-var pokemon2 = new Pokemon(dos,"rojo",20,40,60);
+var pokemon2 = new Pokemon(dos,"rojo",20,40,61);
 
 if(pokemon1.nombre == pokemon2.nombre){
 	alert("no pueden pelear")
